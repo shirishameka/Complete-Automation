@@ -27,3 +27,15 @@ test execution to have summary status of each deployment.
 4. The framework validates the returned status code, response body, headers and cookies. It can validate
 each field data type and value. If the returned response includes object of arraylist,
 the framework can validate its size using the keyword ".size()"
+
+Sample Automated test suit for open source api(Open Brewery DB)
+
+* Description
+Open Brewery DB is a free API for public information on breweries, cideries, brewpubs, and bottleshops.
+Currently it is focused to the United States, but future plans are to import world-wide data.
+
+"https://www.openbrewerydb.org/" providers information about Open Brewery DB API
+
+* This framework contains Automated test suit for the above API.
+
+* Sample response of the API can be found in the above api link
