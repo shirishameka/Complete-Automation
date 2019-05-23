@@ -8,7 +8,7 @@ public class Constants {
 
     public static class Service{
         //urls
-        public static final String GEOCODING = "https://maps.googleapis.com";
+        public static final String OPENBREWERY = "https://api.openbrewerydb.org";
     }
 
     public static class Token{
@@ -18,7 +18,7 @@ public class Constants {
 
     public static class TestUrl {
         //apis
-        public static final String GETINFO = "/maps/api/geocode/json";
+        public static final String GETINFO = "/breweries";
     }
 
     public static class FilePath{
